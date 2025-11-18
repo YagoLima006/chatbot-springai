@@ -44,7 +44,9 @@ build/
 ### SEGURANÇA E VARIÁVEIS LOCAIS (CRÍTICO) ###
 .env
 .DS_Store
-# Arquivos de propriedades que contêm segredos ou configurações locais
+
+# Configurações de aplicação, incluindo secrets
+.application.properties
 .application*.properties
-application-local.properties
-application-dev.properties
+.application-dev.properties
+.application-local.propertiess
